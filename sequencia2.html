@@ -1,30 +1,34 @@
-<!DOCTYPE html
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vamos contar</title>
-    <link href="style3.css">
+<!DOCTYPE html> <!-- Declara que o documento é HTML5 -->
+<html lang="pt-BR"> <!-- Início do documento HTML, idioma português do Brasil -->
+<head> <!-- Cabeçalho do documento, onde ficam informações e links -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define como a página deve se adaptar em dispositivos móveis -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Compatibilidade com o navegador Internet Explorer -->
+    <title>Vamos contar</title> <!-- Título da aba do navegador -->
+    <link href="style3.css"> <!-- Link para o arquivo CSS (falta rel="stylesheet") -->
 </head>
-<body> </body>
-    <header>
-        <h1>Vamos contar</h1>
+<body> </body> <!-- Corpo da página (errado: fecha logo aqui, deveria abrir primeiro) -->
+
+    <header> <!-- Cabeçalho visível da página -->
+        <h1>Vamos contar</h1> <!-- Título principal da página -->
     </header>
-    <section>
-        <div id="dados">
-            <p> Início: <input type="number" name="inicio" id="start"></p>
-            <p>Fim: <input type="number" name="" id="end"></p>
-            <p>Passo: <input type="number" name="" id="step"></p>
-            <p><input type="button" value="contar" onclick="contar()"></p>
+    
+    <section> <!-- Seção principal do conteúdo -->
+        <div id="dados"> <!-- Div para conter os campos de entrada -->
+            <p> Início: <input type="number" name="inicio" id="start"></p> <!-- Campo numérico para início -->
+            <p>Fim: <input type="number" name="" id="end"></p> <!-- Campo numérico para fim -->
+            <p>Passo: <input type="number" name="" id="step"></p> <!-- Campo numérico para passo -->
+            <p><input type="button" value="contar" onclick="contar()"></p> <!-- Botão que chama função contar() -->
         </div>
-        <div id="result">
-            <p>Preparando a contagem...</p>
+        <div id="result"> <!-- Div para mostrar o resultado da contagem -->
+            <p>Preparando a contagem...</p> <!-- Texto inicial do resultado -->
         </div>
     </section>
-    <footer>
-        <p>&copy; Polo 2025</p>
+    
+    <footer> <!-- Rodapé da página -->
+        <p>&copy; Polo 2025</p> <!-- Texto do rodapé com copyright -->
     </footer>
-    <script src="script3.js"></script>
+    
+    <script src="script3.js"></script> <!-- Link para o arquivo JavaScript -->
 </body>
 </html>
