@@ -1,24 +1,24 @@
 body {
-    background: lightgray; /* Altere para 'gray' ou outro tom se preferir */
-    font: normal 15pt Arial;
+    background: lightgray; /* Define o fundo da página como cinza claro */
+    font: normal 15pt Arial; /* Define fonte Arial, tamanho 15pt, estilo normal */
 }
 
 header {
-    color: rgba(255, 255, 255, 0.7);
-    text-align: center;
+    color: rgba(255, 255, 255, 0.7); /* Cor do texto branca com 70% de opacidade */
+    text-align: center; /* Centraliza o texto */
 }
 
 section {
-    background: rgba(255, 255, 255, 0.489);
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+    background: rgba(255, 255, 255, 0.489); /* Fundo branco semi-transparente */
+    border-radius: 10px; /* Bordas arredondadas com raio de 10px */
+    padding: 15px; /* Espaçamento interno de 15px */
+    width: 500px; /* Largura fixa de 500 pixels */
+    margin: auto; /* Centraliza horizontalmente na página */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329); /* Sombra leve ao redor */
 }
 
 footer {
-    color: rgba(255, 255, 255, 0.575);
-    text-align: center;
-    font-style: italic;
+    color: rgba(255, 255, 255, 0.575); /* Cor do texto branca com 57,5% de opacidade */
+    text-align: center; /* Centraliza o texto */
+    font-style: italic; /* Texto em itálico */
 }
